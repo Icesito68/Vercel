@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+.header {
+  text-align: center;
+  margin: 2rem 0;
+  color: #646cff;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.logo {
+  height: 6rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
